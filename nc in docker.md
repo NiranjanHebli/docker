@@ -3,7 +3,7 @@
 ### Use Netcat to connect to the Docker container from another machine and send a message.
 
 
-1) Open AWS console and launch an instance
+1) Open AWS console and launch an instance/Open Unix-Based Operating System
 
 2) Install Dependencies and enable docker 
 
