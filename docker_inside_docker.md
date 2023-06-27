@@ -30,11 +30,11 @@ docker run --privileged -d --name mydocker docker:dind
 docker ps
 ```
 
-5) Run image of any OS inside the given image
+5) Run image of any OS inside the given image container
 
 ```
 docker exec -it mydocker docker run -it --name myos centos:7
 ```
 
 This way you can run docker container inside docker
-
+(This is not the good practice but can be used for working on small data)
